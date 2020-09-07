@@ -1,4 +1,16 @@
-﻿Module basicCalculatorDAH
+﻿
+'Tim Rossiter
+'RCET0265
+'Fall 2020
+'Simple Calculator
+'
+
+Option Strict On
+Option Explicit On
+Option Compare Text
+
+
+Module basicCalculatorDAH
 
     Sub Main()
         Dim firstNumber As String
