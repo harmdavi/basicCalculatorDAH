@@ -1,5 +1,5 @@
 ﻿
-'Tim Rossiter
+'David Harmon <-- Your name here - TJR
 'RCET0265
 'Fall 2020
 'Simple Calculator
@@ -23,8 +23,8 @@ Module basicCalculatorDAH
         Dim result As Decimal
 
         'This is just a into screen. it will not appear again in the calculator 
-        Console.WriteLine("This is a basic Calculator. _ 
-if at any time you would like to quit the calculator, press q ")
+        Console.WriteLine("This is a basic Calculator." & vbNewLine _
+                            & "if at any time you would like to quit the calculator, press q ") 'Less efficient but more readable - TJR
 
         userInput = Console.ReadLine
         If userInput = "q" Then
